@@ -6,8 +6,6 @@
 -module(syslogger).
 
 -on_load(init/0).
--define(APPNAME, syslogger).
--define(LIBNAME, libsyslogger).
 
 -export([adding_handler/1, log/2, open/3]).
 
