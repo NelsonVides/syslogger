@@ -7,10 +7,10 @@
    [kernel,
     stdlib
    ]},
-  {env,[{handlers, [{syslogger, #{}}]}]},
+  {env,[]},
   {modules, []},
-
   {maintainers, []},
   {licenses, ["Apache 2.0"]},
-  {links, []}
+  {links, [{"GitHub", "https://github.com/NelsonVides/syslogger/"}]},
+  {exclude_files, ["c_src/syslogger.d"]}
  ]}.
